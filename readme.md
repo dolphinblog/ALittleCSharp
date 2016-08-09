@@ -6,3 +6,5 @@
 * 接着，就可以添加远程仓库并Push:
 `git remote add origin git@github.com:username/RepoName.git` 添加远程仓库，仓库名称为`origin`
 `git push origin master` 将本地仓库的master分支推到远程费仓库origin上面
+
+> 参考http://www.tuicool.com/articles/biQBRfR

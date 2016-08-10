@@ -40,7 +40,7 @@ class Program
         // 下面这段类似SQL语句的东西就是Linq，像是SQL的颠倒。
         var queryResults = from element in xmlDoc.Elements("Person") //查询出所有"<Person>XXX</Person>"元素(element)
                            where element.Element("Name").Value == "李四"//对上步筛选出的element进行进一步筛选
-                           select element;//获得经过删选后的element
+                           select element;//获得经过筛选后的element
         
         foreach (var xele in queryResults)
         {
